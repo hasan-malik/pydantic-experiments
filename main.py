@@ -42,3 +42,12 @@ result = agent.run_sync(
 )
 
 print(result.output)
+
+
+
+# Step	What you build	Concept learned
+# 1	Ask a question, get a plain text answer	   Basic Agent + API key
+# 2	Ask a question, get a structured Python object back	      Pydantic models + typed output
+# 3	Add a tool that the agent can call (e.g. get today's date, or fetch a URL)	    Tools
+# 4	Pass a dependency (e.g. user name) the agent can reference	          Dependencies
+
